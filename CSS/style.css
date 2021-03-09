@@ -374,12 +374,10 @@ a.menu-link{
 /*Форма для рассылки в футере*/
 
 .mailing-box{
-    display: block;
     width: 570px;
     margin-left: auto;
 }
 .mailing-tittle{
-   display:inline-block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
