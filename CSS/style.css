@@ -610,16 +610,24 @@ a.menu-link{
 }
 
 
-.text-input-check{
+.check a{
     text-decoration: underline;
-    
 }
+
 
 .check{
     padding-left: 20px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400; 
+    color:  rgba(117, 117, 117, 1);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
 }
 
 .check-input{
+    
     position: absolute;
     -webkit-appearance:none;
     -moz-appearance: none;
@@ -629,18 +637,26 @@ a.menu-link{
 
 .check-box{
     position: absolute;
-    margin-left: -20px;
+    margin-left: -5px;
+    
     width: 16px;
     height: 15px;
     background-image: url(../IMG/Vector\ border.svg);
     background-repeat: no-repeat;
 }
 .check-input:checked + .check-box{
+    
     background-image: url(../IMG/Icon-input.svg);
     background-repeat: no-repeat;
 }
+.check-input:focus + .check-box{
+    background-image: url(../IMG/Vector\ border.svg); 
 
+}
+.check-input:checked:focus + .check-box{
+    background-image:  url(../IMG/Icon-input.svg);
 
+}
 
 
 
