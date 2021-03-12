@@ -374,7 +374,7 @@ a.menu-link{
 /*Форма для рассылки в футере*/
 
 .mailing-box{
-    
+    margin: 10px;
     width: 570px;
     margin-left: 93px;
 }
@@ -609,40 +609,6 @@ a.menu-link{
 
 }
 
-/*
-.checbox a{
-    color: var(--blue-text);
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.checbox{
-    justify-content: center;
-    text-align: center;
-    margin: 0px;
-   font-size: 14px;
-   line-height: 24px; 
-   letter-spacing: 00.03em;
-   color:rgba(117, 117, 117, 1);  
-}
-.checbox input{
-    cursor: pointer;
-}
-.checkbox-icon-input{
-    display: none;
-}
-.checkbox-icon-icon{
-    display: block;
-    margin-right: 9px;
-    width: 16px;
-    height: 15px;
-    border: 1px solid black;
-    border-radius: 2px;
-    cursor: pointer;
-}
-.checkbox-icon-icon use{
-    display: none;
-}*/
 
 .text-input-check{
     text-decoration: underline;
@@ -671,7 +637,9 @@ a.menu-link{
 }
 .check-input:checked + .check-box{
     background-image: url(../IMG/Icon-input.svg);
+    background-repeat: no-repeat;
 }
+
 
 
 
