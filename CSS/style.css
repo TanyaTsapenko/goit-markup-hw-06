@@ -267,7 +267,7 @@ a.menu-link {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16, 4px;
+  line-height: 16.4px;
   text-transform: uppercase;
   color: var(--white-text);
 }
@@ -389,7 +389,7 @@ a.menu-link {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16, 4px;
+  line-height: 16.4px;
   text-transform: uppercase;
   color: var(--white-text);
   margin: auto;
@@ -506,6 +506,7 @@ a.menu-link {
 /*Форма для отправки данных в модальном окне*/
 .modal {
   overflow: auto;
+  overflow: hidden;
 }
 .title-modal {
   margin: 0px;
@@ -528,7 +529,7 @@ a.menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12;
+  font-size: 12px;
   letter-spacing: 00.01em;
   line-height: 14px;
   color: rgba(117, 117, 117, 1);
